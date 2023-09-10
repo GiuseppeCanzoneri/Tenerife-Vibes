@@ -1,24 +1,22 @@
 import React from "react";
-import { Button, Card } from "react-bootstrap";
+import { Card, Col, Row } from "react-bootstrap";
 
 const Destination = ({ destination }) => {
   return (
-    <div className="destination-card">
-      <Card>
-        <Card.Img
-          width="200px"
-          height="400px"
-          className="image-fluid rounded-2"
-          style={{ objectFit: "cover" }}
-          variant="top"
-          src={destination.image}
-        />
-        <Button>Scopri</Button>
-        <Card.Body>
-          <h5 className="text-center mt-1 text-dark">{destination.name}</h5>
-          <p className="text-dark">{destination.description}</p>
-        </Card.Body>
-      </Card>
+    <div>
+      <Row className="mt-4">
+        <Col md={8} xs={12} className="mt-2">
+          <div className="d-flex flex-column align-items-end">
+            <h5 className="mt-1 text-dark">{destination.name}</h5>
+            <p className="text-dark ms-5" style={{ maxWidth: "80%" }}>
+              {destination.description}
+            </p>
+          </div>
+        </Col>
+        <Col md={4} xs={12}>
+          <Card.Img className="custom-image" variant="top" src={destination.image} />
+        </Col>
+      </Row>
     </div>
   );
 };

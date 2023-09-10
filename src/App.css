@@ -1,6 +1,59 @@
+body {
+  background-image: url(./assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .sfondo1 {
   background-image: url(./assets/jumbo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
+}
+
+.font-link {
+  font-family: "Abel", sans-serif;
+}
+
+.custom-image {
+  object-fit: cover;
+  border-radius: 70px;
+  width: 800px;
+  height: 400px;
+}
+
+.foto2 {
+  border-radius: 70px;
+}
+
+.foto3 {
+  width: 500px;
+  height: 600px;
+  margin-left: 75px;
+  border-radius: 20px;
+}
+
+@media (max-width: 767px) {
+  .foto3 {
+    width: 100%; /* Occupa tutta la larghezza del dispositivo */
+    height: auto; /* Altezza automatica in base all'aspect ratio dell'immagine */
+    margin-left: 0; /* Rimuovi il margine a sinistra */
+  }
+}
+
+.scroll-animation {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 2.5s, transform 3.5s;
+}
+
+.scroll-animation.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media (max-width: 768px) {
+  .custom-image {
+    max-width: 100%; /* Imposta la larghezza massima al 100% del contenitore padre */
+  }
 }
