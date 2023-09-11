@@ -1,5 +1,6 @@
 import { Button, Container, Form, Nav, NavDropdown, Navbar } from "react-bootstrap";
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const TopBar = () => {
   return (
@@ -12,9 +13,9 @@ const TopBar = () => {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: "100px" }} navbarScroll>
-            <Nav.Link href="#action1" className="font-nav">
+            <Link to={"/"} className="font-nav nav-link">
               Home
-            </Nav.Link>
+            </Link>
             <NavDropdown title="Mete" className="font-nav" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3" className="font-nav">
                 Escursioni
@@ -26,9 +27,9 @@ const TopBar = () => {
             <Nav.Link href="#action2" className="font-nav">
               Galleria
             </Nav.Link>
-            <Nav.Link href="#action2" className="font-nav">
+            <Link to={"/chi-siamo"} className="font-nav nav-link">
               Chi Siamo
-            </Nav.Link>
+            </Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control type="search" placeholder="Search" className="me-2 font-nav" aria-label="Search" />

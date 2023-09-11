@@ -1,0 +1,60 @@
+const admin = [
+  {
+    id: 1,
+    image: "url immagine",
+    name: "Giuseppe",
+    surname: "Canzoneri",
+    description: "Mia descrizione",
+    social: "miei social",
+  },
+  {
+    id: 2,
+    image: "url immagine",
+    name: "Eleonora",
+    surname: "Carlone",
+    description: "Mia descrizione",
+    social: "miei social",
+  },
+  {
+    id: 3,
+    image: "url immagine",
+    name: "Rossella",
+    surname: "Canzoneri",
+    description: "Mia descrizione",
+    social: "miei social",
+  },
+  {
+    id: 4,
+    image: "url immagine",
+    name: "Antonino ",
+    surname: "Sparacio",
+    description: "Mia descrizione",
+    social: "miei social",
+  },
+  {
+    id: 5,
+    image: "url immagine",
+    name: "Salvatore",
+    surname: "Zimmardi",
+    description: "Mia descrizione",
+    social: "miei social",
+  },
+  {
+    id: 6,
+    image: "url immagine",
+    name: "GiusyMary",
+    surname: "Pecoraro",
+    description: "Mia descrizione",
+    social: "miei social",
+  },
+  {
+    id: 7,
+    image: "url immagine",
+    name: "Sebastiano",
+    surname: "Zimmardi",
+    description: "Mia descrizione",
+    social: "miei social",
+  },
+];
+
+export default admin;

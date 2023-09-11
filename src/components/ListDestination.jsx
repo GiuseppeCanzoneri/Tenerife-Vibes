@@ -8,20 +8,24 @@ const ListDestination = ({ destinations }) => {
   const sectionRef = useRef();
 
   useEffect(() => {
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          sectionRef.current.classList.add("active");
-        }
+    const sectionElement = sectionRef.current;
+
+    if (sectionElement) {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            sectionElement.classList.add("active");
+          }
+        });
       });
-    });
 
-    observer.observe(sectionRef.current);
+      observer.observe(sectionElement);
 
-    return () => {
-      observer.unobserve(sectionRef.current);
-    };
-  }, []);
+      return () => {
+        observer.unobserve(sectionElement);
+      };
+    }
+  }, [sectionRef]);
 
   return (
     <Container className="my-4 ">
