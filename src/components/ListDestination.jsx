@@ -72,8 +72,10 @@ const ListDestination = ({ destinations }) => {
         </div>
         <div className="mt-3">
           <div>
-            <h2 className="display-4 fw-bold fs-2">Esplora il Mondo</h2>
-            <p className="fs-4">
+            <h2 className="display-4 fw-bold fs-2 bg-warning rounded  text-dark border border-2 border-dark">
+              Esplora il Mondo
+            </h2>
+            <p className="fs-4 bg-dark rounded border border-2 border-white text-white">
               "Benvenuti a Tenerife, la prima tappa nella nostra app 'Esplora il Mondo'! Scopri le meravigliose
               destinazioni disponibili qui. Per la nostra HomePage abbiamo selezionato solo 3 delle incredibili mete che
               puoi esplorare su quest'isola affascinante . Per Visualizzare le altre vai sulla sezione Mete presente
