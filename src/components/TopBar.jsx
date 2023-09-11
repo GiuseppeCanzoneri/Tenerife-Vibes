@@ -12,17 +12,29 @@ const TopBar = () => {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: "100px" }} navbarScroll>
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <NavDropdown title="Mete" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Escursioni</NavDropdown.Item>
-              <NavDropdown.Item href="#action3">Prezzi</NavDropdown.Item>
+            <Nav.Link href="#action1" className="font-nav">
+              Home
+            </Nav.Link>
+            <NavDropdown title="Mete" className="font-nav" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3" className="font-nav">
+                Escursioni
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action3" className="font-nav">
+                Prezzi
+              </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#action2">Galleria</Nav.Link>
-            <Nav.Link href="#action2">Chi Siamo</Nav.Link>
+            <Nav.Link href="#action2" className="font-nav">
+              Galleria
+            </Nav.Link>
+            <Nav.Link href="#action2" className="font-nav">
+              Chi Siamo
+            </Nav.Link>
           </Nav>
           <Form className="d-flex">
-            <Form.Control type="search" placeholder="Search" className="me-2" aria-label="Search" />
-            <Button variant="outline-success">Search</Button>
+            <Form.Control type="search" placeholder="Search" className="me-2 font-nav" aria-label="Search" />
+            <Button className="font-nav" variant="outline-success">
+              Search
+            </Button>
           </Form>
         </Navbar.Collapse>
       </Container>

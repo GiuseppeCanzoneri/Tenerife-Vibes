@@ -1,6 +1,6 @@
 import Destination from "./Destination";
 import React, { useEffect, useRef } from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Button } from "react-bootstrap";
 import Noi from "..//assets/chi-siamo.jpg";
 import Tenerife from "..//assets/tenerife.jpg";
 
@@ -27,7 +27,7 @@ const ListDestination = ({ destinations }) => {
     <Container className="my-4 ">
       <>
         {/* Sezione "Descrizione" */}
-        <div className="row mt-5 scroll-animation-2 border border-3 border-dark rounded bg-white " ref={sectionRef}>
+        <div className="row mt-5 scroll-animation-2 border border-3 border-dark rounded bg-white ">
           <div className="col-md-6">
             <h2 className="display-4 mt-3 ">Un'isola che conquista cuori di ogni età</h2>
             <p className="fs-4 mt-3 font-link">
@@ -66,15 +66,6 @@ const ListDestination = ({ destinations }) => {
             <Button variant="outline-dark mb-2 btn-lg">Scopri di più</Button>
           </div>
         </div>
-
-        <Row className="row-cols-1 row-cols-md-2 row-cols-lg-4 row-gap-3">
-          {destinations.map(destination => (
-            <Col key={destination.id}>
-              <Destination destination={destination} />
-            </Col>
-          ))}
-        </Row>
-
         <div className="mt-3">
           <div>
             <h2 className="display-4 fw-bold fs-2">Esplora il Mondo</h2>
@@ -86,6 +77,10 @@ const ListDestination = ({ destinations }) => {
             </p>
           </div>
         </div>
+
+        {/* Carosello con le 3 mete della HomePage */}
+
+        <Destination destination={destinations} />
       </>
     </Container>
   );

@@ -1,22 +1,28 @@
 import React from "react";
-import { Card, Col, Row } from "react-bootstrap";
+import { Button, Carousel } from "react-bootstrap";
+import destinations from "./destinationData";
 
 const Destination = ({ destination }) => {
   return (
     <div>
-      <Row className="mt-4">
-        <Col md={8} xs={12} className="mt-2">
-          <div className="d-flex flex-column align-items-end">
-            <h5 className="mt-1 text-dark">{destination.name}</h5>
-            <p className="text-dark ms-5" style={{ maxWidth: "80%" }}>
-              {destination.description}
-            </p>
-          </div>
-        </Col>
-        <Col md={4} xs={12}>
-          <Card.Img className="custom-image" variant="top" src={destination.image} />
-        </Col>
-      </Row>
+      <Carousel fade className="custom-carousel">
+        {destinations.map(destination => (
+          <Carousel.Item key={destination.id}>
+            <img src={destination.image} alt={destination.name} className="custom-carousel-image" />
+            <Carousel.Caption>
+              <h3 className="bg-warning rounded  text-dark border border-2 border-dark  d-md-block">
+                {destination.name}
+              </h3>
+              <p className="bg-dark rounded border border-2 border-white d-none d-md-block">
+                {destination.description}
+              </p>
+              <Button className="mb-5 bg-warning text-dark border border-2 border-dark fw-bold btn-lg">
+                Scopri di più
+              </Button>
+            </Carousel.Caption>
+          </Carousel.Item>
+        ))}
+      </Carousel>
     </div>
   );
 };
