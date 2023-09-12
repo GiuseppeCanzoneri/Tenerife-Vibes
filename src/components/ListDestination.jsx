@@ -77,8 +77,8 @@ const ListDestination = ({ destinations }) => {
         </div>
         <div className="mt-3">
           <div>
-            <h2 className="display-4 fw-bold fs-2 bg-warning rounded  text-dark border border-2 border-dark">
-              Esplora il Mondo
+            <h2 className="display-4 fw-bold fs-2  rounded  text-dark border border-2 border-dark text-center">
+              Benvenuti a Tenerife
             </h2>
             <p className="fs-4 bg-dark rounded border border-2 border-white text-white">
               "Benvenuti a Tenerife, la prima tappa nella nostra app 'Esplora il Mondo'! Scopri le meravigliose
