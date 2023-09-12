@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from "react";
 import { Container, Button } from "react-bootstrap";
 import Noi from "..//assets/chi-siamo.jpg";
 import Tenerife from "..//assets/tenerife.jpg";
+import { useNavigate } from "react-router-dom";
 
 const ListDestination = ({ destinations }) => {
   const sectionRef = useRef();
@@ -26,6 +27,8 @@ const ListDestination = ({ destinations }) => {
       };
     }
   }, [sectionRef]);
+
+  const navigate = useNavigate();
 
   return (
     <Container className="my-4 ">
@@ -67,7 +70,9 @@ const ListDestination = ({ destinations }) => {
               emozionanti ai consigli pratici per ottimizzare il vostro viaggio. Siete pronti per un'avventura virtuale
               a Tenerife? Lasciatevi ispirare dalle nostre storie e consigli per un viaggio memorabile!"
             </p>
-            <Button variant="outline-dark mb-2 btn-lg">Scopri di più</Button>
+            <Button variant="outline-dark mb-2 btn-lg" onClick={() => navigate("/chi-siamo")}>
+              Scopri di più
+            </Button>
           </div>
         </div>
         <div className="mt-3">

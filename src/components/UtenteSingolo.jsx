@@ -1,4 +1,6 @@
-import { Card, Col, Row } from "react-bootstrap"; // Utilizziamo Col e Row per la griglia
+import { Card, Col, Row } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import admin from "./chiSiamoData";
 
 const UtenteSingolo = ({ utente }) => {
@@ -6,17 +8,24 @@ const UtenteSingolo = ({ utente }) => {
     <div>
       <Row xs={1} md={2} lg={3}>
         {" "}
-        {/* Definiamo quante card per riga su base responsiva */}
         {admin.map(utente => (
           <Col key={utente.id}>
-            <Card className="mt-3 mb-3">
+            <Card className="mt-3 mb-3 bg-dark text-white  card-fade-in" style={{ height: 900 }}>
               <Card.Img variant="top" src={utente.image} alt={`${utente.name} ${utente.surname}`} />
               <Card.Body>
-                <Card.Title>{`${utente.name} ${utente.surname}`}</Card.Title>
-                <Card.Text>{utente.description}</Card.Text>
-                <Card.Text>Social: {utente.social}</Card.Text>
+                <Card.Title>
+                  <span className="orange-line">{`${utente.name} ${utente.surname}`}</span>
+                </Card.Title>
+                <Card.Text className="font-chi-siamo">{utente.description}</Card.Text>
               </Card.Body>
             </Card>
+            <Card.Text className="fw-bold font-chi-siamo border border-4 border-dark rounded card-fade-in card-hover-color">
+              <a href={utente.social} target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon className="fs-3 ms-1 me-2 text-dark" icon={faInstagram} />
+              </a>
+              Clicca sull'icona di instagram per vedere con i tuoi occhi ciò che abbiamo fatto a tenerife attaverso le
+              nostre storie/post
+            </Card.Text>
           </Col>
         ))}
       </Row>

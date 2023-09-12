@@ -27,16 +27,10 @@ const TopBar = () => {
             <Nav.Link href="#action2" className="font-nav">
               Galleria
             </Nav.Link>
-            <Link to={"/chi-siamo"} className="font-nav nav-link">
+            <Link to={"/chi-siamo#chi-siamo"} className="font-nav nav-link">
               Chi Siamo
             </Link>
           </Nav>
-          <Form className="d-flex">
-            <Form.Control type="search" placeholder="Search" className="me-2 font-nav" aria-label="Search" />
-            <Button className="font-nav" variant="outline-success">
-              Search
-            </Button>
-          </Form>
         </Navbar.Collapse>
       </Container>
     </Navbar>

@@ -44,9 +44,9 @@ body {
 
 @media (max-width: 767px) {
   .foto3 {
-    width: 100%; /* Occupa tutta la larghezza del dispositivo */
-    height: auto; /* Altezza automatica in base all'aspect ratio dell'immagine */
-    margin-left: 0; /* Rimuovi il margine a sinistra */
+    width: 100%;
+    height: auto;
+    margin-left: 0;
   }
 }
 
@@ -63,28 +63,100 @@ body {
 
 @media (max-width: 768px) {
   .custom-image {
-    max-width: 100%; /* Imposta la larghezza massima al 100% del contenitore padre */
+    max-width: 100%;
   }
 }
 
 /* Stile del carosello su desktop */
 @media (min-width: 992px) {
   .custom-carousel {
-    width: 100%; /* Imposta la larghezza desiderata per il desktop */
+    width: 100%;
   }
 
   .custom-carousel-image {
-    width: 100%; /* Imposta la larghezza dell'immagine all'interno del carosello */
+    width: 100%;
   }
 }
 
 @media (max-width: 991px) {
   .custom-carousel {
-    width: 80%; /* Imposta la larghezza desiderata per i dispositivi mobili e tablet */
-    margin: 0 auto; /* Centra il carosello orizzontalmente */
+    width: 80%;
+    margin: 0 auto;
   }
 
   .custom-carousel-image {
-    width: 100%; /* Imposta la larghezza dell'immagine all'interno del carosello */
+    width: 100%;
   }
+}
+
+.font-chi-siamo {
+  font-family: "DM Serif Display", serif;
+}
+
+.orange-line {
+  display: inline-block;
+  border-bottom: 4px solid orange;
+  border-radius: 10px;
+  transition: width 0.5s ease;
+}
+
+.orange-line:hover {
+  width: 100%;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card-fade-in {
+  animation: fadeIn 7s ease-out;
+}
+
+.card-hover-color {
+  background-color: transparent;
+  transition: 2s ease;
+  background-image: linear-gradient(to left, transparent 50%, orange 50%);
+  background-size: 200% 100%; /* Imposta la larghezza del gradiente al 200% */
+  background-position: right bottom;
+}
+
+.card-hover-color:hover {
+  background-position: left bottom;
+}
+
+.contenitore-video {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  overflow: hidden;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testo-sopra-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Colore del testo */
+  text-align: center;
 }
