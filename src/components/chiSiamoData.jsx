@@ -46,7 +46,7 @@ const admin = [
   {
     id: 5,
     image:
-      "https://res.cloudinary.com/ddmdmya7g/image/upload/v1694483544/tenerivibes/photo_5765121343313001561_y_afzvyw.jpg",
+      "https://res.cloudinary.com/ddmdmya7g/image/upload/v1694541436/tenerivibes/photo_5766961835583585646_y_m4f7ed.jpg",
     name: "Salvatore",
     surname: "Zimmardi",
     description:

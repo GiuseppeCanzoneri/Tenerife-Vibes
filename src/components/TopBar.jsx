@@ -17,7 +17,7 @@ const TopBar = () => {
               Home
             </Link>
             <NavDropdown title="Mete" className="font-nav underline-on-hover" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3" className="font-nav underline-on-hover">
+              <NavDropdown.Item as={Link} to="/mete-prezzi" className="font-nav underline-on-hover ">
                 Escursioni / Prezzi
               </NavDropdown.Item>
             </NavDropdown>
