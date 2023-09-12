@@ -49,7 +49,8 @@ const admin = [
       "https://res.cloudinary.com/ddmdmya7g/image/upload/v1694483544/tenerivibes/photo_5765121343313001561_y_afzvyw.jpg",
     name: "Salvatore",
     surname: "Zimmardi",
-    description: "Mia descrizione",
+    description:
+      " Sono Salvatore, ma puoi chiamarmi Zimmy. Sono la bussola vivente del nostro gruppo, colui che sa sempre dove andare e come farlo al meglio. Quando si tratta di pianificare le nostre avventure, puoi contare su di me per avere un piano infallibile.Ma c'è un piccolo segreto: quando mi ubriaco, divento il più divertente del gruppo. La mia personalità si trasforma, e il mio senso dell'umorismo diventa irresistibile. Sono come il fuoco d'artificio delle nostre serate, pronto a far brillare ogni momento con risate e allegria.Quindi, se hai bisogno di una guida affidabile per esplorare nuove mete o se vuoi semplicemente trascorrere una serata indimenticabile, sono qui per te. Con me, ogni avventura diventa un'esperienza unica e divertente! Se cerchi un fidanzato sono disponibile",
     social: "https://www.instagram.com/salvo_zimmy/",
   },
   {
@@ -58,7 +59,8 @@ const admin = [
       "https://res.cloudinary.com/ddmdmya7g/image/upload/v1694483545/tenerivibes/photo_5765121343313001559_y_vhdd8f.jpg",
     name: "Giusimary",
     surname: "Pecoraro",
-    description: "Mia descrizione",
+    description:
+      " Sono GiusiMary, quella del gruppo che si fa catturare dalla bellezza di ogni luogo che visitiamo. Sono la fotografa ufficiale delle nostre avventure, e la mia missione è catturare ogni momento speciale per conservarlo per sempre. Devo ammettere che  costringo le mie amiche a farmi fare davvero tante foto. Le nostre foto diventano ricordi preziosi, e mi piace pensare che un giorno potremo sfogliare l'album delle nostre avventure e sorridere per ogni momento condiviso.Quanto a me, sono un po' timida e riservata. . Ma quando si tratta di catturare la bellezza del mondo e dei miei amici, riesco a superare la mia timidezza e a far brillare ogni istante. Sono il nostro archivista di ricordi, e sono felice di farlo!",
     social: "https://www.instagram.com/giusimary_02/",
   },
   {

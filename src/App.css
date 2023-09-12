@@ -160,3 +160,27 @@ body {
   color: white; /* Colore del testo */
   text-align: center;
 }
+
+.underline-on-hover {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+
+.underline-on-hover::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: orange;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.underline-on-hover:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
