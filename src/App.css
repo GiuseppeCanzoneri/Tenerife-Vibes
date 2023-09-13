@@ -184,3 +184,13 @@ body {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+.card-with-background {
+  background-image: url(./assets/sfondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.font-mete {
+  font-family: "Crimson Text", serif;
+}

@@ -81,10 +81,9 @@ const ListDestination = ({ destinations }) => {
               Benvenuti a Tenerife
             </h2>
             <p className="fs-4 bg-dark rounded border border-2 border-white text-white">
-              "Benvenuti a Tenerife, la prima tappa nella nostra app 'Esplora il Mondo'! Scopri le meravigliose
-              destinazioni disponibili qui. Per la nostra HomePage abbiamo selezionato solo 3 delle incredibili mete che
-              puoi esplorare su quest'isola affascinante . Per Visualizzare le altre vai sulla sezione Mete presente
-              nella barra di navigazione"
+              "Benvenuti a Tenerife! Scopri le meravigliose destinazioni disponibili qui. Per la nostra HomePage abbiamo
+              selezionato solo 3 delle incredibili mete che puoi esplorare su quest'isola affascinante . Per
+              Visualizzare le altre vai sulla sezione Mete presente nella barra di navigazione"
             </p>
           </div>
         </div>

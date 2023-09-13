@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Carousel } from "react-bootstrap";
 import destinations from "./destinationData";
+import { Link } from "react-router-dom";
 
 const Destination = ({ destination }) => {
   return (
@@ -16,9 +17,11 @@ const Destination = ({ destination }) => {
               <p className="bg-dark rounded border border-2 border-white d-none d-md-block">
                 {destination.description}
               </p>
-              <Button className="mb-5 bg-warning text-dark border border-2 border-dark fw-bold btn-lg">
-                Scopri di più
-              </Button>
+              <Link to={"/mete-prezzi"}>
+                <Button className="mb-5 bg-warning text-dark border border-2 border-dark fw-bold btn-lg">
+                  Scopri di più
+                </Button>
+              </Link>
             </Carousel.Caption>
           </Carousel.Item>
         ))}

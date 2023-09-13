@@ -3,71 +3,83 @@ const meta = [
     id: 1,
     image: "https://res.cloudinary.com/ddmdmya7g/image/upload/v1694543793/tenerivibes/playa_las_america_d1h8ij.jpg",
     name: "Playa de Las America",
-    description: "descrizione",
-    prezzo: "gratuita",
+    description:
+      "Playa de Las Américas è una spiaggia che può sorprendere i visitatori per la sua particolarità. Qui troverai sabbia, ma anche molte rocce sia sulla riva che nel mare. È importante notare che questa spiaggia potrebbe non essere la scelta migliore per chi desidera rilassarsi sulla sabbia. La presenza di rocce può rendere scomodo camminare sulla spiaggia e fare il bagno nel mare.Inoltre, è importante tenere presente che la corrente dell'acqua a Playa de Las Américas può essere molto forte. Questo potrebbe renderla una destinazione non adatta per i nuotatori inesperti o per coloro che desiderano solo fare una nuotata tranquilla. Pertanto, se scegli di visitare questa spiaggia, assicurati di portare con te scarpe adatte per camminare sulla superficie rocciosa e di fare attenzione alle condizioni dell'acqua.In sintesi, Playa de Las Américas potrebbe essere più adatta per coloro che cercano avventure acquatiche e sport acquatici emozionanti, ma potrebbe non essere la scelta migliore per chi cerca una classica giornata di relax in spiaggia. ",
+    prezzo: "Gratuito",
   },
   {
     id: 2,
-    image: "url-immagine",
+    image: "https://tenerifesurprise.it/wp-content/uploads/2021/01/Playa-El-Camison-2.jpeg",
     name: "Playa El Camison",
-    description: "descrizione",
+    description:
+      "Playa El Camisón è una delle spiagge più belle e pulite di Tenerife. La sabbia è dorata e morbida, perfetta per distendersi e rilassarsi sotto il caldo sole delle Canarie. Il mare qui è noto per la sua limpidezza e la tranquillità delle sue acque. Quando nuoti a Playa El Camisón, sembra di essere in una grande piscina naturale piuttosto che nell'oceano, grazie alla sua calma.Una delle comodità aggiuntive di questa spiaggia è la disponibilità di lettini e ombrelloni a pagamento. Questo significa che puoi goderti una giornata al mare con ancora più comfort. Inoltre, la spiaggia è situata a soli 20 minuti a piedi da Playa de Las Américas, quindi è facilmente accessibile e puoi combinare una visita a entrambe le spiagge nella stessa giornata.In sintesi, Playa El Camisón è una destinazione perfetta per coloro che cercano una spiaggia con sabbia bellissima, mare limpido e un'atmosfera rilassata. È il posto ideale per prendere il sole, nuotare e godersi una giornata di mare durante la tua visita a Tenerife.",
     prezzo: " Due lettini e un ombrellone 12€",
   },
   {
     id: 3,
-    image: "url-immagine",
+    image: "https://kingsbuffets.com/wp-content/uploads/2019/07/siam-park-1.jpg",
     name: "Siam Park",
-    description: "descrizione",
-    prezzo: "45€ più navetta gratuita and/rit. Altrimenti fast-pass per le attrazioni 28€",
+    description:
+      "Siam Park è un luogo magico che offre un'esperienza unica nel suo genere. Questo parco acquatico è famoso per le sue incredibili attrazioni, scivoli adrenalinici e piscine spettacolari, che lo rendono una destinazione ideale per le famiglie, gli amici e gli amanti dell'acqua.Una delle poche criticità di Siam Park potrebbe essere la presenza di code alle attrazioni, specialmente se non hai un pass veloce. Tuttavia, un consiglio prezioso per massimizzare il divertimento è iniziare la giornata con la Tower of Power poco dopo l'apertura del parco. Questa emozionante discesa ti farà sentire come un vero eroe e ti darà un assaggio delle avventure indimenticabili che ti aspettano. Inoltre, le onde giganti di Siam Park sono uno spettacolo da non perdere. Ogni ora, queste onde enormi creano un'atmosfera entusiasmante, perfetta per rilassarsi e divertirsi. Sfrutta questo momento per galleggiare e goderti l'esperienza unica delle onde giganti. ",
+    prezzo:
+      "45€ più navetta gratuita and/rit. Altrimenti fast-pass per le attrazioni 28€ , se vuoi un armadietto , quello grande costa 7€ più 10€ di cauzione che ti accreditano sulla carta se non ci sono danni",
   },
   {
     id: 4,
-    image: "url-immagine",
+    image: "https://kanaren.insel-leben.de/wp-content/uploads/sites/12/2017/11/Sant-Cruz-Tenerife-1200x636.jpg",
     name: "Santa Cruz de Tenerife",
-    description: "descrizione",
+    description:
+      "Santa Cruz de Tenerife è senza dubbio una città molto affascinante, con molto da offrire ai visitatori. La città vanta una cultura vibrante, un'atmosfera accogliente e una cucina deliziosa. Gli abitanti locali sono noti per la loro cordialità e la loro gentilezza, il che rende l'esperienza ancora più piacevole.Tuttavia, una delle poche criticità potrebbe essere la distanza da Playa de Las Américas.Il viaggio in autobus può richiedere fino a un'ora e costa 17 euro.Un consiglio prezioso è quello di sfruttare l'offerta giornaliera del bus se parti da Playa de Las Américas. Questa opzione ti permette di viaggiare illimitatamente su tutti i mezzi pubblici per solo 12 euro al giorno, rendendo il trasporto più conveniente e accessibile.",
     prezzo: "Pranzo con menù completo e specialità tipiche 10€ con promozione",
   },
   {
     id: 5,
-    image: "url-immagine",
+    image: "https://a.cdn-hotels.com/gdcs/production196/d389/df747d76-21bc-4c30-bef8-1e10ad3e6c89.jpg",
     name: "Playa de Las Teresitas ",
-    description: "descrizione",
-    prezzo: "gratuita",
+    description:
+      "Playa de Las Teresitas è rinomata per la sua straordinaria bellezza naturale. Questa spiaggia è una vera gemma dell'isola di Tenerife ed è una meta imperdibile per chiunque visiti l'isola. La sua posizione vicino a Santa Cruz de Tenerife la rende facilmente accessibile e popolare tra i locali e i turisti.Una delle caratteristiche distintive di Playa de Las Teresitas è la sua sabbia dorata, che è stata importata dal Sahara per creare questa spiaggia artificiale. Questa sabbia conferisce alla spiaggia un aspetto unico e affascinante. La spiaggia è ampiamente nota per essere una delle più pulite dell'isola, il che la rende perfetta per il relax e il nuoto.Il mare di fronte a Las Teresitas è limpido e calmo, il che lo rende ideale per i bagnanti di tutte le età. È un luogo ideale per nuotare o fare snorkeling, dato che le acque sono piuttosto tranquille. Inoltre, l'acqua è generalmente pulita e cristallina, offrendo un'esperienza balneare piacevole.La spiaggia è circondata da bellissime montagne e vegetazione lussureggiante, creando un paesaggio mozzafiato. È un luogo perfetto per rilassarsi sotto il sole, fare una passeggiata lungo la riva o semplicemente ammirare la bellezza naturale circostante.",
+    prezzo: "Gratuito",
   },
   {
     id: 6,
-    image: "url-immagine",
+    image: "https://enjoycanaryislands.com/wp-content/uploads/2022/09/playa-de-la-arena-tenerife.jpg",
     name: "Playa de La Arena, Los Gigantes (Spiaggia Nera)",
-    description: "descrizione",
-    prezzo: "gratuita",
+    description:
+      "Playa de La Arena è famosa per la sua sabbia nera vulcanica, che le conferisce un aspetto unico e suggestivo. Questa spiaggia è situata sulla costa occidentale di Tenerife, a circa 20 minuti in macchina da Playa de Las Américas. La sua sabbia nera è il risultato dell'attività vulcanica dell'isola e crea un contrasto sorprendente con l'acqua cristallina dell'oceano. Sebbene la spiaggia possa sembrare insolita a prima vista a causa della sabbia nera e delle pietre presenti in acqua, è importante notare che è una spiaggia molto pulita e ben mantenuta. L'acqua, sebbene talvolta possa essere un po' mossa, è generalmente sicura per il nuoto e offre un'esperienza unica. La temperatura dell'acqua è piacevolmente mite, il che la rende adatta anche per il nuoto.Playa de La Arena è un luogo ideale per rilassarsi e prendere il sole, ma offre anche una serie di servizi, tra cui sdraio e ombrelloni in affitto. Questi servizi possono rendere più confortevole la tua giornata in spiaggia.Il paesaggio circostante è davvero spettacolare, con scogliere imponenti e una vista panoramica sull'oceano Atlantico. È un posto perfetto per ammirare il tramonto o fare una passeggiata romantica lungo la riva.",
+    prezzo: "Gratuito",
   },
   {
     id: 7,
-    image: "url-immagine",
+    image:
+      "https://www.spain.info/.content/imagenes/cabeceras-grandes/parques-nacionales/panoramica-teide-s197927225.jpg",
     name: "Vulcano Teide",
-    description: "descrizione",
+    description:
+      "Il Teide è un vulcano attivo situato nel Parco Nazionale del Teide, nel centro di Tenerife. Con i suoi 3.718 metri di altezza, è la montagna più alta di tutta la Spagna e dell'intero territorio spagnolo, rendendolo una delle principali attrazioni dell'isola.Questo vulcano è un vero spettacolo naturale, con il suo cono vulcanico perfettamente formato e il paesaggio lunare che lo circonda. La zona circostante è ricoperta da un manto di cenere vulcanica e rocce scure, creando un'atmosfera surreale che sembra provenire da un altro pianeta. Il Parco Nazionale del Teide è stato dichiarato Patrimonio dell'Umanità dall'UNESCO ed è un luogo straordinario per gli amanti della natura e dell'escursionismo. Le escursioni sul Teide offrono panorami mozzafiato e la possibilità di esplorare l'ambiente vulcanico unico dell'isola.Tuttavia, è importante notare che per raggiungere il Teide in modo indipendente, è consigliabile noleggiare un'auto, poiché i bus pubblici potrebbero non arrivare direttamente alla vetta. Esistono escursioni organizzate che includono un trasporto in autobus, ma se desideri esplorare la zona in modo più flessibile, avere un'auto a disposizione è la soluzione migliore.",
     prezzo:
       "Gratuito se andate in autonomia , per salire fino in cima bisogna prenotare sul sito. Altrimenti Escursione Teide Tour con Funivia costo 39€ che è l'offerta migliore",
   },
   {
     id: 8,
-    image: "url-immagine",
+    image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/0b/d1/08/caption.jpg?w=1200&h=-1&s=1",
     name: "Monkey Park ",
-    description: "descrizione",
-    prezzo: "Ingresso 10€ + 3€ Cibo per animali",
+    description:
+      "Il Monkey Park è uno dei parchi zoologici più popolari dell'isola di Tenerife, noto per la sua concentrazione di primati, in particolare di scimmie e primati delle varie specie. Si trova nella zona sud dell'isola, vicino a località turistiche come Playa de las Américas e Los Cristianos.Una delle caratteristiche più sorprendenti del Monkey Park è la possibilità di interagire direttamente con molti degli animali presenti nel parco. Qui, puoi avvicinarti a scimmie, lemuri, capibara, rettili e altri animali in un ambiente sicuro e controllato. Questa esperienza di contatto ravvicinato offre un'opportunità unica per osservare da vicino e persino alimentare alcuni di questi affascinanti animali.Il parco è impegnato nella conservazione e nella preservazione delle specie, ed è coinvolto in programmi di riproduzione e ricerca per contribuire alla salvaguardia delle specie minacciate.Tra le varie specie di scimmie presenti nel parco, si trovano le scimmie cappuccine, i tamarin, i gibboni e molti altri. Gli animali sono ospitati in spazi che cercano di ricreare il più possibile il loro habitat naturale, garantendo loro il benessere e la salute.",
+    prezzo: "Ingresso 10€ + 3€ Cibo per animali Per arrivare lì c'è il taxi costo 7-8€",
   },
   {
     id: 9,
-    image: "url-immagine",
+    image: "https://www.tenerifecanarie.it/wp-content/uploads/2021/05/Puerto-de-la-Cruz-Tenerife.jpg",
     name: "Puerto de La Cruz",
-    description: "descrizione",
-    prezzo: "gratuita",
+    description:
+      "Puerto de la Cruz è una delle destinazioni più tradizionali e affascinanti di Tenerife, con una lunga storia nel settore turistico. Questa incantevole località costiera è rinomata per il suo clima piacevole durante tutto l'anno, grazie alla corrente dell'Atlantico che la raffredda e la rende un luogo ideale per le vacanze in qualsiasi stagione.La città è caratterizzata da un'atmosfera rilassata e autentica, molto diversa da alcune delle località più affollate e turistiche dell'isola. Qui puoi trovare strade lastricate, edifici storici e una piazza principale vivace circondata da caffetterie e ristoranti.Tra le principali attrazioni di Puerto de la Cruz spicca il famoso Lago Martiánez, un complesso di piscine d'acqua salata progettato dall'architetto César Manrique, dove puoi fare il bagno e rilassarti in un ambiente unico. Il giardino botanico di Puerto de la Cruz è un altro luogo da non perdere, con una straordinaria varietà di piante esotiche provenienti da tutto il mondo.",
+    prezzo: "Gratuito",
   },
   {
     id: 10,
-    image: "url-immagine",
+    image: "https://www.holidaywolf.de/wp/wp-content/uploads/2040/03/lago-martianez.jpg",
     name: "Lago Martianez",
-    description: "descrizione",
+    description:
+      "Il Lago Martiánez è un complesso di piscine di acqua salata situato lungo la costa settentrionale di Tenerife, progettato dall'architetto spagnolo César Manrique. Questo complesso è noto per essere uno dei luoghi più iconici e pittoreschi dell'isola e rappresenta una destinazione ideale per chi desidera rilassarsi e godersi il sole in un ambiente unico.Il complesso è costituito da diverse piscine di acqua salata, ciascuna con un design unico e circondata da spazi verdi, sculture e arte moderna. La piscina principale, nota come Lago Martiánez, è circondata da ampi solarium, lettini e ombrelloni, il che la rende perfetta per prendere il sole e rilassarsi. L'acqua di mare nelle piscine viene costantemente ricambiata dall'oceano, garantendo una qualità dell'acqua eccezionale.Ci sono anche piccole cascate, fiumi artificiali e un'isola centrale con una caffetteria e un bar, dove è possibile gustare una varietà di bevande e snack mentre ci si rilassa a bordo piscina. Questo complesso è un'ottima opzione sia per le famiglie che per i visitatori in cerca di divertimento e relax.Una delle caratteristiche più affascinanti del Lago Martiánez è il suo design paesaggistico, con giardini subtropicali curati e una vista spettacolare sull'oceano Atlantico e sul vulcano Teide. La combinazione di paesaggio naturale e arte moderna rende questo luogo un'esperienza unica e piacevole.",
     prezzo: "Ingresso 5€ incluso di lettino. Ombrellone a parte costo: 2,50€",
   },
 

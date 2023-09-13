@@ -1,5 +1,5 @@
 import React from "react";
-import video from "../assets/ciao.mp4";
+import video from "../assets/trip.mp4";
 import { Card, Container } from "react-bootstrap";
 import UtenteSingolo from "./UtenteSingolo";
 
