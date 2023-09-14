@@ -82,9 +82,26 @@ const meta = [
       "Il Lago Martiánez è un complesso di piscine di acqua salata situato lungo la costa settentrionale di Tenerife, progettato dall'architetto spagnolo César Manrique. Questo complesso è noto per essere uno dei luoghi più iconici e pittoreschi dell'isola e rappresenta una destinazione ideale per chi desidera rilassarsi e godersi il sole in un ambiente unico.Il complesso è costituito da diverse piscine di acqua salata, ciascuna con un design unico e circondata da spazi verdi, sculture e arte moderna. La piscina principale, nota come Lago Martiánez, è circondata da ampi solarium, lettini e ombrelloni, il che la rende perfetta per prendere il sole e rilassarsi. L'acqua di mare nelle piscine viene costantemente ricambiata dall'oceano, garantendo una qualità dell'acqua eccezionale.Ci sono anche piccole cascate, fiumi artificiali e un'isola centrale con una caffetteria e un bar, dove è possibile gustare una varietà di bevande e snack mentre ci si rilassa a bordo piscina. Questo complesso è un'ottima opzione sia per le famiglie che per i visitatori in cerca di divertimento e relax.Una delle caratteristiche più affascinanti del Lago Martiánez è il suo design paesaggistico, con giardini subtropicali curati e una vista spettacolare sull'oceano Atlantico e sul vulcano Teide. La combinazione di paesaggio naturale e arte moderna rende questo luogo un'esperienza unica e piacevole.",
     prezzo: "Ingresso 5€ incluso di lettino. Ombrellone a parte costo: 2,50€",
   },
-
   {
     id: 11,
+    image: "https://i.ytimg.com/vi/DVe4KtMEINA/maxresdefault.jpg",
+    name: "Playa de Las Veronicas",
+    description:
+      "Playa Las Verónicas è una delle destinazioni turistiche più famose e vivaci di Tenerife, situata nella zona di Playa de las Américas. Questa zona è conosciuta per la sua vita notturna animata, con numerosi bar e locali notturni lungo la striscia costiera.Tuttavia, è importante notare che la zona può essere piuttosto rumorosa e movimentata, con un flusso costante di persone che passeggiano lungo la strada principale. Alcuni potrebbero trovare fastidioso il fatto che ci siano promotori (PR) che cercano di attirare l'attenzione dei visitatori per farli entrare nei loro locali. Questi PR cercano di invitare i passanti nei vari bar e discoteche lungo la strada, spesso offrendo promozioni speciali per attirare i clienti. Nel nostro caso,siamo stati al Envy, e abbiamo fatto una promozione di 10 euro che includeva 4 cocktail, 4 shot e 2 bottiglie di prosecco. Questa è una delle tante offerte promozionali che potete trovare lungo la striscia di Las Verónicas. Molti turisti apprezzano queste offerte convenienti, ma è importante tenere presente che la qualità delle bevande e l'atmosfera possono variare da locale a locale.  Se cercate un locale dove si balla, il più bello è stato il Jumpin Jack. Ogni locale lungo Las Verónicas ha il suo stile e il suo appeal unico, quindi è comune che i visitatori abbiano preferenze diverse. Tenerife offre una vasta gamma di opzioni per l'intrattenimento notturno, e Las Verónicas è solo una delle tante aree dove puoi goderti la vita notturna dell'isola.",
+    prezzo:
+      "Per entrare nei locali bisogna o consumare all'interno del locale oppure accettare una promozione del PR che troverai davanti ad ognuno di esso.",
+  },
+  {
+    id: 12,
+    image:
+      "https://scontent-fco2-1.xx.fbcdn.net/v/t39.30808-6/372837713_285500707564175_3748889377444618833_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=49d041&_nc_ohc=NXbXTzaHtXEAX_3z518&_nc_ht=scontent-fco2-1.xx&oh=00_AfC1erSfLnzy7Q6uoASfuG_BA4rlnVIJ4uu9Vrr0PQO7Gg&oe=6506F652",
+    name: "Mala Mia club Tenerife",
+    description:
+      "La discoteca Mala Mia a Tenerife è conosciuta per essere una delle discoteche più belle e popolari dell'isola. Ecco alcune caratteristiche chiave: Bellissimo Ambiente: Mala Mia è rinomata per il suo ambiente attraente e moderno. Potresti aspettarti una decorazione alla moda, luci scintillanti e un design interno che crea un'atmosfera coinvolgente. Costi Accessibili per le Bevande: Una caratteristica distintiva potrebbe essere il fatto che bere all'interno non costa molto. Questo è un vantaggio per i visitatori che vogliono godersi una serata fuori senza spendere una fortuna per le bevande. Ammesso Solo Maggiorenni: È importante notare che Mala Mia accetta solo persone maggiorenni. Questo significa che devi essere maggiorenne per entrare nella discoteca e partecipare alle serate.   Politica di Prezzo: Le serate potrebbero essere gratuite o a pagamento con consumazione. Questo è un formato comune nelle discoteche, dove puoi entrare gratuitamente, ma è richiesto un minimo di consumo una volta all'interno. Puoi spendere questo importo in bevande o altri prodotti offerti dalla discoteca.Variazioni nelle Serate: Le serate a Mala Mia possono variare a seconda del giorno della settimana e degli eventi speciali. Alcune serate potrebbero avere DJ ospiti, temi diversi o offerte speciali.Prima di pianificare una visita a Mala Mia o a qualsiasi altra discoteca a Tenerife, è consigliabile controllare le informazioni aggiornate sul sito web ufficiale della discoteca o sulla loro pagina social per ottenere dettagli specifici sulle serate, i prezzi e gli orari di apertura. Inoltre, rispetta sempre le regole e le politiche della discoteca per garantire una serata divertente e sicura.",
+    prezzo: "10€ più una consumazione oppure Gratuito",
+  },
+  {
+    id: 13,
     image: "https://cdn.getyourguide.com/img/tour/58ca8b5720f7a.jpeg/98.jpg",
     name: "Teide",
     description:
@@ -92,7 +109,7 @@ const meta = [
     prezzo: "Da 61 € a persona",
   },
   {
-    id: 12,
+    id: 14,
     image: "https://cdn.getyourguide.com/img/tour/29febdebd4110510.jpeg/145.jpg",
     name: "Tenerife Eco-crociera tra delfini e balene, cibo e bevande",
     description:

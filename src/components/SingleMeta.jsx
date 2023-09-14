@@ -19,7 +19,7 @@ const SingleMeta = ({ meta }) => {
               <Card.Img src={meta.image} alt={meta.name} />
             </Col>
           </Row>
-          <Alert variant="info text-dark fs-5" style={{ maxWidth: "45%" }}>
+          <Alert variant="info text-dark fs-5 mt-3" style={{ maxWidth: "45%" }}>
             Prezzo: {meta.prezzo}
           </Alert>
         </Card.Body>
