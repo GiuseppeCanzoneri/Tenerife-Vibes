@@ -21,9 +21,6 @@ const TopBar = () => {
                 Escursioni / Prezzi
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#action2" className="font-nav underline-on-hover">
-              Galleria
-            </Nav.Link>
             <Link to={"/chi-siamo"} className="font-nav nav-link underline-on-hover">
               Chi Siamo
             </Link>

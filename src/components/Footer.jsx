@@ -33,7 +33,7 @@ const Footer = () => {
             <ul className="list-unstyled">
               <li>
                 <a
-                  href="https://instagram.com/TenerifeApp"
+                  href="https://www.instagram.com/giuseppe_canzoneri/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-decoration-none text-white"
@@ -43,7 +43,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://linkedin.com/TenerifeApp"
+                  href="https://www.instagram.com/giuseppe_canzoneri/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-decoration-none text-white"
@@ -53,7 +53,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://github.com/TenerifeApp"
+                  href="https://github.com/GiuseppeCanzoneri"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-decoration-none text-white"
