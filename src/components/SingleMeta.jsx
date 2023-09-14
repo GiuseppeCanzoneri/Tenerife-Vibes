@@ -20,7 +20,7 @@ const SingleMeta = ({ meta }) => {
             </Col>
           </Row>
           <Alert variant="info text-dark fs-5 mt-3" style={{ maxWidth: "45%" }}>
-            Prezzo: {meta.prezzo}
+            Prezz: {meta.prezzo}
           </Alert>
         </Card.Body>
       </Card>
